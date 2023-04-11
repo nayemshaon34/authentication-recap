@@ -38,6 +38,8 @@ function App() {
             <h2>Name : {user.displayName}</h2>
             <h3>Email: {user.email}</h3>
             <img src={user.photoUrl} alt="" />
+            <h3>Email Verified: {user.emailVerified}</h3>
+            <h3>Last SignInTime: {user.lastSignInTime}</h3>
             <button onClick={handleSignOut}>Sign Out</button>
         </>
         :
